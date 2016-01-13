@@ -1,0 +1,165 @@
+body
+{
+   font-family: arial;
+    font-size:12px;
+    line-height:15px;
+    background-color:#bbbfc2;
+}
+
+.wrapper
+{
+  width:980px;
+  margin:auto 0;
+  height:100%;
+  position:relative;
+}
+
+.header
+{
+    width:980px;
+    height:276px;
+    margin: 0 auto;
+    background: url("../../assets/images/header.jpg") 0 -0 no-repeat;
+}
+
+
+
+header h1 {
+    color:#fff;
+    font-family: 'Open Sans'; 
+    text-align: right;
+    padding:41px 70px 0 0;
+    margin:0;
+    font-size: 50px;
+    font-weight:bold;
+    text-transform:uppercase;
+    line-height:48px;
+}
+
+header h1 span{
+  font-size: 32px;
+  font-weight:normal;
+  padding-bottom:0px;
+  display:block;
+  text-transform:capitalize;
+  line-height:40px;
+}
+
+.content
+{
+  width:980px;
+  margin: 0 auto;
+  padding:60px 0 0 0;
+  background: #fff;
+}
+
+aside{
+width:300px;
+float: left;
+background-color: #eee;
+height:100%;
+
+}
+
+nav ul{
+padding-bottom:100px;
+}
+
+nav ul li{
+color:#9ba0a4;
+line-height: 60px;
+font-family: 'Source Sans Pro';
+font-size:18px;
+border-bottom:1px solid #fff;
+text-align: right;
+
+}
+
+nav ul li a{
+  color:#9ba0a4;
+  text-decoration:none;
+  display:block;
+}
+
+nav ul li a:hover{
+  color:#36abe1;
+  text-decoration:none;
+  background:#fff;
+  display:block;
+}
+
+.sprite-icon {
+  background: url("../../assets/images/icons/sprites/icons_small.png") 0 0 no-repeat;
+  width:30px;
+  height:25px;
+  display:inline-block;
+  margin:0 24px 0 24px; 
+  position: relative;
+  top: 8px;
+  }
+
+.one{
+  background-position:0 0;
+}
+
+nav ul li:hover .one{
+  background-position:0 -175px;
+}
+ 
+
+.two{
+  background-position:0 -25px;
+}
+nav ul li:hover .two{
+  background-position:0 -200px;
+}
+
+.pig{
+  background-position:0 -50px;
+}
+nav ul li:hover .pig{
+  background-position:0 -225px;
+}
+.range{
+  background-position:0 -75px;
+}
+nav ul li:hover .range{
+  background-position:0 -250px;
+}
+.book{
+  background-position:0 -100px;
+}
+nav ul li:hover .book{
+  background-position:0 -275px;
+}
+.home{
+  background-position:0 -125px;
+}
+nav ul li:hover .home{
+  background-position:0 -300px;
+}
+.hand{
+  background-position:0 -150px;
+}
+nav ul li:hover .hand{
+  background-position:0 -325px;
+}
+
+section{
+  float:left;
+  padding:0 70px;
+
+}
+
+.clearfix{
+  clear:both;
+}
+
+
+.footer
+{
+    width:940px;
+    margin: 20px auto;
+    clear:both;
+}
+
